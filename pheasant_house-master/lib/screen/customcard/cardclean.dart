@@ -92,7 +92,7 @@ class _CardCleanState extends State<CardClean> {
                         width: 6.5,
                       ),
                       const Text(
-                        'เวลาโง่ๆ :',
+                        'เวลา :',
                         style: TextStyle(
                           fontSize: 18,
                           fontWeight: FontWeight.bold,
