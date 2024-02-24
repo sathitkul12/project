@@ -121,7 +121,7 @@ class _CardCleanState extends State<CardClean> {
                           builder: (context) => const PopupClean()));
                 },
                 child: Text(
-                  'ตั้งค่าทำความสะอาด',
+                  'ตั้งค่าทำความสะอาดสักวัน',
                   style: TextStyle(
                     fontSize: 18,
                     fontWeight: FontWeight.bold,
