@@ -51,7 +51,7 @@ class RegisterScreen extends StatelessWidget {
                     child: Image.asset('lib/images/pheasant_house1.png'),
                   ),
                 ),
-                buildText('ลงทะเบียน'),
+                buildText('ลงทะเบียนม่้ัง'),
                 buildText('Pheant house'),
                 buildTextFormField('Email', Icons.person),
                 buildTextFormField('Email', Icons.person),
