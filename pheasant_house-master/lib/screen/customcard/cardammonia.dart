@@ -178,7 +178,7 @@ class _CardAmmoniaState extends State<CardAmmonia> {
               Navigator.push(context,
                   MaterialPageRoute(builder: (context) => const PopupTemp()));
             },
-            child: buildInfoContainer('อุณหภูมิเเหละ', '  C ',
+            child: buildInfoContainer('อุณหภูมิ', '  C ',
                 'lib/images/Rectangle78.png', 7, temperatureValue),
           ),
           sizedBox,
