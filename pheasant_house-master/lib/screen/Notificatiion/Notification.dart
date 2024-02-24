@@ -1,0 +1,3 @@
+class NotificationSceen {
+  const NotificationSceen();
+}
