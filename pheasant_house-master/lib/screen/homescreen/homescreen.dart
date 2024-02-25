@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pheasant_house/screen/Notificatiion/Notification.dart';
 import 'package:pheasant_house/screen/menuscreen/menuscreen.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -77,15 +78,24 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                     ],
                   ),
-                  const Row(
-                    children: [
-                      Icon(
-                        Icons.notifications_none,
-                        color: Colors.black,
-                        size: 50,
-                      ),
-                    ],
-                  ),
+                  GestureDetector(
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => NotificationScreen()),
+                      );
+                    },
+                    child: const Row(
+                      children: [
+                        Icon(
+                          Icons.notifications_none,
+                          color: Colors.black,
+                          size: 50,
+                        ),
+                      ],
+                    ),
+                  )
                 ],
               ),
             ),
